@@ -3,21 +3,39 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | infografia</title>
+    <title>Infografia Piola</title>
   </head>
+
+  
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 1366px; height: 768px; background: #231F20"></canvas>
-    <script src="Build/infografiaWEB.loader.js"></script>
-    <script>
-      createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/infografiaWEB.data",
-        frameworkUrl: "Build/infografiaWEB.framework.js",
-        codeUrl: "Build/infografiaWEB.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "infografia",
-        productVersion: "1.0",
-      });
-    </script>
-  </body>
+    <audio src="music/4ibai.mp" autoplay loop></audio>
+
+    <H1> titulo piola </H1>
+
+    <div class="objetoUnity">
+      <canvas id="unity-canvas" style="width: 1000px; height: 500px; background: #231F20"></canvas>
+      <script src="Build/infografiaWEB.loader.js"></script>
+  
+      <div class="container">
+        <script>
+          createUnityInstance(document.querySelector("#unity-canvas"), {
+            dataUrl: "Build/infografiaWEB.data",
+            frameworkUrl: "Build/infografiaWEB.framework.js",
+            codeUrl: "Build/infografiaWEB.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "DefaultCompany",
+            productName: "infografia",
+            productVersion: "1.0",
+          });
+        </script>
+  
+      </div>
+    </div>
+  
+<H1> lo que vienen siendo los creditos y nuestros logos y el de la u para que se vea mas chingon
+
+</H1>
+
+
+</body>
 </html>
